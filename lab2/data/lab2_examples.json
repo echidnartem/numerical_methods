@@ -1,0 +1,70 @@
+{
+  "eps": 0.000001,
+  "tests": [
+    {
+      "number": 1,
+      "functions": [
+        "(x1 ** 2 + a ** 2) * x2 - a ** 3",
+        "(x1 - a / 2) ** 2 + (x2 - a / 2) ** 2 - a ** 2"
+      ],
+      "iteration_functions": [
+        "a / 2 + sqrt(a ** 2 - (x2 - a / 2) ** 2)",
+        "a ** 3 / (x1 ** 2 + a ** 2)"
+      ],
+      "parameters": {"a": 2.0},
+      "initial": [3.0, 0.6]
+    },
+    {
+      "number": 2,
+      "functions": [
+        "(x1 ** 2 + a ** 2) * x2 - a ** 3",
+        "(x1 - a / 2) ** 2 + (x2 - a / 2) ** 2 - a ** 2"
+      ],
+      "iteration_functions": [
+        "a / 2 + sqrt(a ** 2 - (x2 - a / 2) ** 2)",
+        "a ** 3 / (x1 ** 2 + a ** 2)"
+      ],
+      "parameters": {"a": 3.0},
+      "initial": [4.5, 0.9]
+    },
+    {
+      "number": 5,
+      "functions": [
+        "x1 - cos(x2) - 1",
+        "x2 - lg(x1 + 1) - a"
+      ],
+      "iteration_functions": [
+        "1 + cos(x2)",
+        "a + lg(x1 + 1)"
+      ],
+      "parameters": {"a": 2.0},
+      "initial": [0.5, 2.0]
+    },
+    {
+      "number": 6,
+      "functions": [
+        "x1 - cos(x2) - 1",
+        "x2 - lg(x1 + 1) - a"
+      ],
+      "iteration_functions": [
+        "1 + cos(x2)",
+        "a + lg(x1 + 1)"
+      ],
+      "parameters": {"a": 3.0},
+      "initial": [0.1, 3.0]
+    },
+    {
+      "number": 7,
+      "functions": [
+        "x1 ** 2 + x2 ** 2 - a ** 2",
+        "x1 - exp(x2) + a"
+      ],
+      "iteration_functions": [
+        "sqrt(a ** 2 - x2 ** 2)",
+        "ln(x1 + a)"
+      ],
+      "parameters": {"a": 2.0},
+      "initial": [1.5, 1.2]
+    }
+  ]
+}

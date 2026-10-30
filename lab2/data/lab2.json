@@ -1,0 +1,14 @@
+{
+  "number": 1,
+  "functions": [
+    "(x1 ** 2 + a ** 2) * x2 - a ** 3",
+    "(x1 - a / 2) ** 2 + (x2 - a / 2) ** 2 - a ** 2"
+  ],
+  "iteration_functions": [
+    "a / 2 + sqrt(a ** 2 - (x2 - a / 2) ** 2)",
+    "a ** 3 / (x1 ** 2 + a ** 2)"
+  ],
+  "parameters": {"a": 2.0},
+  "initial": [3.0, 0.6],
+  "eps": 0.000001
+}

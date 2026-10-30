@@ -1,0 +1,35 @@
+{
+  "eps": 0.000001,
+  "tests": [
+    {
+      "number": 1,
+      "function": "2 ** x - x ** 2 - 0.5",
+      "interval": [1.0, 2.0],
+      "initial": 1.5
+    },
+    {
+      "number": 2,
+      "function": "ln(x + 2) - x ** 2",
+      "interval": [1.0, 2.0],
+      "initial": 1.5
+    },
+    {
+      "number": 5,
+      "function": "cos(x) + 0.25 * x - 0.5",
+      "interval": [0.5, 2.0],
+      "initial": 1.25
+    },
+    {
+      "number": 6,
+      "function": "exp(x) - 2 * x - 2",
+      "interval": [1.0, 2.0],
+      "initial": 1.5
+    },
+    {
+      "number": 7,
+      "function": "2 ** x + x ** 2 - 2",
+      "interval": [0.0, 1.0],
+      "initial": 0.5
+    }
+  ]
+}

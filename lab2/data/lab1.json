@@ -1,0 +1,7 @@
+{
+  "number": 1,
+  "function": "2 ** x - x ** 2 - 0.5",
+  "interval": [1.0, 2.0],
+  "initial": 1.5,
+  "eps": 0.000001
+}
